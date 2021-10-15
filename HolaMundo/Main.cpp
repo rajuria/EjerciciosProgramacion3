@@ -1,10 +1,6 @@
 #include <iostream>
 #include <conio.h>
 
-void setup()
-{
-	int Val;
-}
 
 void main()
 {
