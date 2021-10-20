@@ -7,6 +7,7 @@
 using std::cin;
 using std::cout;
 
+void juegoPrincipal();
 bool esCorrecto(int, int);
 
 void main()
@@ -29,10 +30,20 @@ void juegoPrincipal()
 		while (!esCorrecto(numeroIngresado, numeroAdivinar))
 			cin >> numeroIngresado;
 
+		cout << "Excelente! Has descubierto el numero generado!\n Deseas volver a jugar? y/n";
+		cin >> respuesta;
+
+		cout << "\n";
 	} while (respuesta == 'y');
 }
 
-bool esCorrecto(int _numeroAdivinar, int _numeroIngresado)
+bool esCorrecto(int _numeroIngresado, int _numeroAdivinar)
 {
-
+	if (_numeroAdivinar == _numeroIngresado)
+		return true;
+	if (_numeroIngresado < _numeroAdivinar)
+		cout << "Muy bajo, intenta de nuevo.\n";
+	else
+		cout << "Muy alto, intenta de nuevo.\n";
+	return false;
 }
