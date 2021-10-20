@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semana2", "Semana2", "{DDEB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JuegoSemana2", "JuegoSemana2\JuegoSemana2.vcxproj", "{A5ABBEEF-52F5-4BB9-8E38-0244DD7E5CDA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploClase", "EjemploClase\EjemploClase.vcxproj", "{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,6 +37,14 @@ Global
 		{A5ABBEEF-52F5-4BB9-8E38-0244DD7E5CDA}.Release|x64.Build.0 = Release|x64
 		{A5ABBEEF-52F5-4BB9-8E38-0244DD7E5CDA}.Release|x86.ActiveCfg = Release|Win32
 		{A5ABBEEF-52F5-4BB9-8E38-0244DD7E5CDA}.Release|x86.Build.0 = Release|Win32
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Debug|x64.ActiveCfg = Debug|x64
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Debug|x64.Build.0 = Debug|x64
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Debug|x86.Build.0 = Debug|Win32
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Release|x64.ActiveCfg = Release|x64
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Release|x64.Build.0 = Release|x64
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Release|x86.ActiveCfg = Release|Win32
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2480C60D-B0B5-4B22-BADF-C6FCA6D08161} = {50037D63-55DD-4307-A9A9-9FB1256B5813}
 		{A5ABBEEF-52F5-4BB9-8E38-0244DD7E5CDA} = {DDEBDA9B-0460-486E-B2CD-850DBFF9DC0E}
+		{A4975AFF-9E14-4CA4-98BB-7DEA737C2C53} = {DDEBDA9B-0460-486E-B2CD-850DBFF9DC0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7930EA27-71AC-4DEB-BE2D-09BA531F009D}
